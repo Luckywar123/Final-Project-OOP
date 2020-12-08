@@ -14,11 +14,16 @@ import javax.swing.JPanel;
 
 public class Main extends JPanel { 
 
+    /**
+     *
+     */
     private static final long serialVersionUID = 1L;
     private int size;
     private int nbTiles;
     private int dimension;
-    private static final Color FOREGROUND_COLOR = new Color(239, 83, 80); 
+    private static final Color PRIMARY_COLOR = new Color(128,128,128);
+    private static final Color FOREGROUND_COLOR = new Color(44,44,44);
+    private static final Color BACKGROUND_COLOR = new Color(18,18,18);  
     private static final Random RANDOM = new Random();
     private int[] tiles;
     private int tileSize;
@@ -39,7 +44,7 @@ public class Main extends JPanel {
         tileSize = gridSize / size;
 
         setPreferredSize(new Dimension(dimension, dimension + margin));
-        setBackground(Color.WHITE);
+        setBackground(BACKGROUND_COLOR);
         setForeground(FOREGROUND_COLOR);
         setFont(new Font("SansSerif", Font.BOLD, 60));
 
@@ -155,8 +160,9 @@ public class Main extends JPanel {
 
             if (tiles[i] == 0) {
                 if (gameOver) {
-                    g.setColor(FOREGROUND_COLOR);
-                    drawCenteredString(g, "\u2713", x, y);
+                    g.setColor(PRIMARY_COLOR);
+                    g.setFont(getFont().deriveFont(Font.BOLD, 20));
+                    drawCenteredString(g, "Complete", x, y);
                 }
 
                 continue;
@@ -164,7 +170,7 @@ public class Main extends JPanel {
 
             g.setColor(getForeground());
             g.fillRoundRect(x, y, tileSize, tileSize, 25, 25);
-            g.setColor(Color.BLACK);
+            g.setColor(PRIMARY_COLOR);
             g.drawRoundRect(x, y, tileSize, tileSize, 25, 25);
             g.setColor(Color.WHITE);
 
@@ -174,9 +180,9 @@ public class Main extends JPanel {
 
     private void drawStartMessage(final Graphics2D g) {
         if (gameOver) {
-            g.setFont(getFont().deriveFont(Font.BOLD, 18));
-            g.setColor(FOREGROUND_COLOR);
-            final String s = "Click to start new game";
+            g.setFont(getFont().deriveFont(Font.BOLD, 20));
+            g.setColor(PRIMARY_COLOR);
+            final String s = "New Game";
             g.drawString(s, (getWidth() - g.getFontMetrics().stringWidth(s)) / 2, getHeight() - margin);
         }
     }
@@ -199,3 +205,4 @@ public class Main extends JPanel {
 
   
 }
+
