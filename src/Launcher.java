@@ -8,7 +8,7 @@ public class Launcher {
 	public static void main(final String[] args) {
 		Scanner sc = new Scanner (System.in);
 		int n;
-		System.out.print("Puzzle n X n, n =");
+		System.out.print("Berapa ukuran puzzle yang ingin anda mainkan?");
         	n=Integer.parseInt(sc.nextLine());
 		
 	    	SwingUtilities.invokeLater(() -> {
