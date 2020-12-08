@@ -17,7 +17,7 @@ public class Launcher {
 	        	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	        	frame.setTitle("Sliding Puzzle");
 	        	frame.setResizable(false);
-	        	frame.add(new Main(4, 550, 30), BorderLayout.CENTER);
+	        	frame.add(new Main(n, 550, 30), BorderLayout.CENTER);
 	      		frame.pack();
 	      		frame.setLocationRelativeTo(null);
 	      		frame.setVisible(true);
