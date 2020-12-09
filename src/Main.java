@@ -21,9 +21,9 @@ public class Main extends JPanel {
     private int size;
     private int nbTiles;
     private int dimension;
-    private static final Color PRIMARY_COLOR = new Color(128,128,128);
-    private static final Color FOREGROUND_COLOR = new Color(44,44,44);
-    private static final Color BACKGROUND_COLOR = new Color(18,18,18);  
+    private static final Color PRIMARY_COLOR = new Color(192,192,192);
+    private static final Color FOREGROUND_COLOR = new Color(255,0,0);
+    private static final Color BACKGROUND_COLOR = new Color(255, 255, 255);  
     private static final Random RANDOM = new Random();
     private int[] tiles;
     private int tileSize;
