@@ -40,7 +40,11 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 
 ## Running The App
 
-TO;DO with steps
+1. Jalankan program
+2. Masukkan pilihan ukuran puzzle
+3. Buka Aplikasi
+4. Urutkan ubin sesuai nomor dengan cara mengklik ubin untuk memindahkan ubin
+5. Setelah selesai, klik new game untuk mulai game baru atau klik tombol silang untuk keluar
 
 ## Classes Used
 
