@@ -16,13 +16,13 @@
 | 1.3 | Membuat CekPuzzle(Cek apakah urutan tersebut dapat dipecahkan dengan aturan) | BAgus | DONE |
 | 1.4 | Membuat Reset(Mengacak ulang urutan dari puzzle) | Ikbal | Done |
 | 1.5 | Membuat EndGame(Kondisi yang memenuhi game selesai) | Andre |Done  |
-| 1.6 | Membuat 15 Ubin  |  |  |
-| 1.7 | Membuat Ubin kosong |  |  |
+| 1.6 | Membuat 15 Ubin  | All | Done |
+| 1.7 | Membuat Ubin kosong | All | Done |
 | 2.1 | Membuat Tampilan Jendela | All | Done |
-| 2.2 | Membuat Tampilan Ubin |  |  |
-| 2.3 | Membuat button newgame |  |  |
-| 2.4 | Membuat text berhasil/selesai |  |  |
-| 2.5 | Membuat Action Listener |  |  |
+| 2.2 | Membuat Tampilan Ubin | All | Done |
+| 2.3 | Membuat button newgame | All | Done |
+| 2.4 | Membuat text berhasil/selesai | All | Done |
+| 2.5 | Membuat Action Listener | All | Done |
 
 ## Sprint Backlog Plan (Sprint 1)
 | ID  | Title/Desc | Asignee | Status |
@@ -50,12 +50,12 @@ Sprint kemarin dianggap terlalu sedikit sehingga diperlukan adanya penyesuaian t
 ## Sprint Backlog Plan (Sprint 3)
 | ID  | Title/Desc | Asignee | Status |
 | --- | ---------- | ------- | ------ |
-| 1.6 | Membuat 15 Ubin  |  |  |
-| 1.7 | Membuat Ubin kosong |  |  |
-| 2.2 | Membuat Tampilan Ubin |  |  |
-| 2.3 | Membuat button newgame |  |  |
-| 2.4 | Membuat text berhasil/selesai |  |  |
-| 2.5 | Membuat Action Listener |  |  |
+| 1.6 | Membuat 15 Ubin  | All | Done |
+| 1.7 | Membuat Ubin kosong | All | Done |
+| 2.2 | Membuat Tampilan Ubin | All | Done |
+| 2.3 | Membuat button newgame | All | Done |
+| 2.4 | Membuat text berhasil/selesai | All | Done |
+| 2.5 | Membuat Action Listener | All | Done |
 
 ## Retrospective 
 
