@@ -11,20 +11,17 @@
 ## Sprint Overview
 | Planned (n)   | Completed (n) |
 | ------------- |-------------- |
-| n             | n             |
+| 6             | 6             |
 
 ## Sprint 3 Backlog
 
 | ID  | Title/Desc | Asignee | Status |
 | --- | ---------- | ------- | ------ |
-| 1.6 | Membuat 15 Ubin  |  |  |
-| 1.7 | Membuat Ubin kosong |  |  |
-| 2.2 | Membuat Tampilan Ubin |  |  |
-| 2.3 | Membuat button newgame |  |  |
-| 2.4 | Membuat text berhasil/selesai |  |  |
-| 2.5 | Membuat Action Listener |  |  |
+| 1.6 | Membuat 15 Ubin  | All | Done |
+| 1.7 | Membuat Ubin kosong | All | Done |
+| 2.2 | Membuat Tampilan Ubin | All | Done |
+| 2.3 | Membuat button newgame | All | Done |
+| 2.4 | Membuat text berhasil/selesai | All | Done |
+| 2.5 | Membuat Action Listener | All | Done |
 
 ## Retrospective 
-
-Sprint kemarin dianggap terlalu sedikit sehingga diperlukan adanya penyesuaian tugas. Lorem ipsum dolor sit amet
-
