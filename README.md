@@ -30,8 +30,13 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
    - Membuat EndGame(Kondisi yang memenuhi game selesai)
    
 - **[Sprint 3](changelog/sprint-3.md) - (From 02/12/2020 until 08/12/2020)** 
-   - Short changes 1
-   - Short changes 2
+   - Membuat 15 Ubin
+   - Membuat Ubin kosong
+   - Membuat Tampilan Ubin
+   - Membuat button newgame
+   - Membuat text berhasil/selesai
+   - Membuat Action Listener
+   
 
 ## Running The App
 
